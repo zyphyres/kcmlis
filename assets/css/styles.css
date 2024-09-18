@@ -60,6 +60,16 @@
 html {
   scroll-behavior: smooth;
 }
+.swiper {
+  width: 800px;
+  height:350px;
+}
+.swiper-slide{
+  width: 100px;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+  background-color:#FFA857;
+}
 
 body {
   margin: var(--header-height) 0 0 0;
