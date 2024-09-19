@@ -179,7 +179,12 @@ body.dark-theme {
   display: grid;
   gap: 1.5rem;
 }
-
+.contact__logo{
+    width: 250px;
+    margin-bottom: -20px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
@@ -190,7 +195,6 @@ body.dark-theme {
   z-index: var(--z-fixed);
   transition: .5s;
 }
-
 /*=============== NAV ===============*/
 .nav {
   height: 80px;
@@ -223,7 +227,9 @@ body.dark-theme {
 }
 .nav__logo {
     width: 180px;
+   
 }
+
 .nav__link, .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -493,7 +499,11 @@ body.dark-theme {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
 }
-
+@media screen and (max-width: 567px) {
+  .contact__logo{
+    display: none;
+  }
+}
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 360px) {
@@ -548,6 +558,7 @@ body.dark-theme {
   .app__img {
     order: -1;
   }
+  
 }
 
 @media screen and (min-width: 767px) {
