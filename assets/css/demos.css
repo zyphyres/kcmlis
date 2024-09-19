@@ -147,6 +147,21 @@
     display: block;
     width: 100%;
 }
+.formitem textarea{
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: inset 0 0 0 100px #fff;
+    border: 1px solid #DDE0E6;
+    box-sizing: border-box;
+    color: #484c53;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
 .formitem input:focus{
     border-color:#9d9fa3;
 }
@@ -217,10 +232,6 @@
     font-weight:700;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
-
 
 
 

@@ -60,7 +60,9 @@
             <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
                 <button class="hystmodal__close" data-hystclose></button>
                 <div class="hystmodal__styled">
-                    <div class="loginblock__h1">Modal form example</div>
+                    <div class="loginblock__h1">Need a qualified dealer? <br />
+                      Inquire here!
+                    </div>
                     <form action="#" method="POST">
                         <div class="formitem">
                             <input type="text" name="username" placeholder="Your name" value="">
@@ -69,14 +71,7 @@
                             <input type="email" name="username" placeholder="Your E-mail" value="">
                         </div>
                         <div class="formitem">
-                            <input type="password" name="username" placeholder="Enter password" value="">
-                        </div>
-                        <div class="loginblock__bottom flexi">
-                            <label class="formcheckbox">
-                                <input type="checkbox" name="remember" tabindex="0">
-                                <span class="flexi"><i class="checkplace"><img src="https://addmorescripts.github.io/hystModal/img/check.svg" alt=""></i>Remember me</span>
-                            </label>
-                            <a href="#" class="loginblock__link">Forget Password</a>
+                            <textarea type="text" name="username" placeholder="State your message" ></textarea>
                         </div>
                         <div class="formsubmit">
                             <button type="submit" class="button">Submit</button>
@@ -86,6 +81,68 @@
             </div>
         </div>
     </div>
+
+    
+    <div class="hystmodal hystmodal--simple" id="modalContact" aria-hidden="true">
+      <div class="hystmodal__wrap">
+          <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
+              <button class="hystmodal__close" data-hystclose></button>
+              <div class="hystmodal__styled">
+                <div class="loginblock__h1">Need a solution? <br />
+                  Contact us!
+                </div>
+                  <form action="#" method="POST">
+                      <div class="formitem">
+                          <input type="text" name="username" placeholder="Your name" value="">
+                      </div>
+                      <div class="formitem">
+                          <input type="email" name="username" placeholder="Your E-mail" value="">
+                      </div>
+                      <div class="formitem">
+                          <textarea type="text" name="username" placeholder="State your message" ></textarea>
+                      </div>
+                      <div class="formsubmit">
+                          <button type="submit" class="button">Submit</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- <div class="hystmodal hystmodal--simple" id="modalContact" aria-hidden="true">
+      <div class="hystmodal__wrap">
+          <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
+              <button class="hystmodal__close" data-hystclose></button>
+              <div class="hystmodal__styled">
+                  <div class="loginblock__h1">Need a solution? <br />
+                    Contact us!
+                  </div>
+                  <form action="#" method="POST">
+                      <div class="formitem">
+                          <input type="text" name="username" placeholder="Your name" value="">
+                      </div>
+                      <div class="formitem">
+                          <input type="email" name="username" placeholder="Your E-mail" value="">
+                      </div>
+                      <div class="formitem">
+                          <input type="password" name="username" placeholder="Enter password" value="">
+                      </div>
+                      <div class="loginblock__bottom flexi">
+                          <label class="formcheckbox">
+                              <input type="checkbox" name="remember" tabindex="0">
+                              <span class="flexi"><i class="checkplace"><img src="https://addmorescripts.github.io/hystModal/img/check.svg" alt=""></i>Remember me</span>
+                          </label>
+                          <a href="#" class="loginblock__link">Forget Password</a>
+                      </div>
+                      <div class="formsubmit">
+                          <button type="submit" class="button">Submit</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div> -->
    
       <!--=============== HOME ===============-->
       <section class="home section" id="home">
@@ -3066,7 +3123,7 @@
           </ul>
 
           <div class="contact__content">
-            <a href="#" class="button">Contact Us</a>
+            <a data-hystmodal="#modalContact" style="cursor: pointer;"  class="button">Contact Us</a>
           </div>
         </div>
       </section>
