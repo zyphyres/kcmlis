@@ -37,6 +37,13 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+
+  
+    --swiper-navigation-size: 30px;
+    --swiper-navigation-top-offset: 50%;
+    --swiper-navigation-sides-offset: 10px;
+    --swiper-navigation-color: var(--first-color);
+  
 }
 
 @media screen and (min-width: 968px) {
@@ -60,16 +67,17 @@
 html {
   scroll-behavior: smooth;
 }
-.swiper {
+/* .swiper {
   width: 800px;
   height:350px;
-}
+} */
 .swiper-slide{
   width: 100px;
 }
 .swiper-pagination .swiper-pagination-bullet-active{
   background-color:#FFA857;
 }
+
 
 body {
   margin: var(--header-height) 0 0 0;
