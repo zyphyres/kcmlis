@@ -3130,7 +3130,6 @@
         </div>
       </section>
     </main>
-
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
       <div class="footer__container container grid">
@@ -3238,7 +3237,7 @@
           
           });
     </script>
-
+<div id="customgpt_chat"></div> <script src="https://cdn.customgpt.ai/js/sge.js" defer="" div_id="customgpt_chat" p_id="42535" p_key="504a45c1759080fe87cd44d027ae35cd"></script>
 <script>
   const myModal = new HystModal({
       // for dynamic init() of modals
