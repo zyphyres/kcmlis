@@ -47,7 +47,7 @@
           <i class="bx bx-grid-alt"></i>
         </div>
 
-        <a data-hystmodal="#modalForms" style="cursor: pointer;" class="button button__header">Inquire</a>
+        <a data-hystmodal="#modalContact" style="cursor: pointer;" class="button button__header">Inquire</a>
       </nav>
     </header>
 
@@ -89,7 +89,7 @@
               <button class="hystmodal__close" data-hystclose></button>
               <div class="hystmodal__styled">
                 <div class="loginblock__h1">Need a solution? <br />
-                  Contact us!
+                  Inquire Now!
                 </div>
                   <form action="#" method="POST">
                       <div class="formitem">
@@ -110,7 +110,7 @@
       </div>
   </div>
 
-    <div class="hystmodal hystmodal--simple" id="modalForms" aria-hidden="true">
+    <!-- <div class="hystmodal hystmodal--simple" id="modalForms" aria-hidden="true">
       <div class="hystmodal__wrap">
           <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
               <button class="hystmodal__close" data-hystclose></button>
@@ -142,7 +142,7 @@
               </div>
           </div>
       </div>
-  </div>
+  </div> -->
    
       <!--=============== HOME ===============-->
       <section class="home section" id="home">
@@ -3120,13 +3120,13 @@
               <span class="contact__information">sales@kcmli.com</span>
             </li>
             <li class="contact__address">
-              Location: <span class="contact__information">Elmhurst, NY</span>
+              Location: <span class="contact__information">3175 29th St. Astoria, NY 11106</span>
             </li>
           </ul>
 
-          <div class="contact__content">
+          <!-- <div class="contact__content">
             <a data-hystmodal="#modalContact" style="cursor: pointer;"  class="button">Contact Us</a>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>
@@ -3145,10 +3145,12 @@
         <div class="footer__content">
           <h3 class="footer__title">Our Services</h3>
           <ul class="footer__links">
-            <li><a href="#" class="footer__link">Pricing </a></li>
-            <li><a href="#" class="footer__link">Discounts</a></li>
-            <li><a href="#" class="footer__link">Report a bug</a></li>
-            <li><a href="#" class="footer__link">Terms of Service</a></li>
+            <li><a href="office-relocation.php" class="footer__link">Office Relocation </a></li>
+            <li><a href="#" class="footer__link">Customs Clearing</a></li>
+            <li><a href="#" class="footer__link">Transportation</a></li>
+            <li><a href="#" class="footer__link">Warehousing</a></li>
+            <li><a href="#" class="footer__link">Cargo Shipment</a></li>
+            
           </ul>
         </div>
 
@@ -3156,21 +3158,22 @@
           <h3 class="footer__title">Our Company</h3>
           <ul class="footer__links">
             <!-- <li><a href="#" class="footer__link">Blog</a></li> -->
-            <li><a href="#" class="footer__link">Our mission</a></li>
-            <li><a href="#" class="footer__link">Get in touch</a></li>
+            <li><a href="#" class="footer__link">Our Mission</a></li>
+            <li><a href="#" class="footer__link">Our Vision</a></li>
+            <li><a href="#" class="footer__link">Terms of Services</a></li>
           </ul>
         </div>
 
         <div class="footer__content">
-          <h3 class="footer__title">Community</h3>
+          <h3 class="footer__title">Connections</h3>
           <ul class="footer__links">
-            <li><a href="#" class="footer__link">Support</a></li>
-            <li><a href="#" class="footer__link">Questions</a></li>
-            <li><a href="#" class="footer__link">Customer help</a></li>
+            <li><a class="footer__link">Telephone: 929-366-6396</a></li>
+            <li><a class="footer__link">Email: sales@kcmli.com</a></li>
+            <li><a class="footer__link">Location: 3175 29th St. Astoria, NY 11106</a></li>
           </ul>
         </div>
 
-        <div class="footer__social">
+        <!-- <div class="footer__social">
           <a href="#" class="footer__social-link"
             ><i class="bx bxl-facebook-circle"></i
           ></a>
@@ -3180,7 +3183,7 @@
           <a href="#" class="footer__social-link"
             ><i class="bx bxl-instagram-alt"></i
           ></a>
-        </div>
+        </div> -->
       </div>
 
       <p class="footer__copy">
