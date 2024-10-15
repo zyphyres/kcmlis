@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/demos.css">
     
 
-    <title>KCM | Luxe Interiors - Customs Clearing</title>
+    <title>KCM | Luxe Interiors - Cargo Shipment</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -149,35 +149,34 @@
         <div class="about__container grid">
           <div class="about__data">
             <h2 class="section__title-center">
-             CUSTOMS CLEARING
+             CARGO SHIPMENT
             </h2>
             <p class="about__description">
-              <u><b>Customs Clearing</b></u> is the process of ensuring goods meet all regulations for import or export, involving submission of necessary documents to customs authorities. It includes payment of duties and taxes and sometimes involves inspections to verify compliance. Once everything is in order, customs releases the goods for delivery.
+              <u><b>Cargo Shipment</b></u> refers to the process of transporting goods or commodities from one location to another, typically via sea, air, rail, or road. It involves packaging, labeling, and preparing goods for transport, as well as completing necessary documentation such as bills of lading, customs declarations, and shipping instructions. Efficient cargo shipment ensures that goods reach their destination safely, on time, and in compliance with international trade regulations.
             </p>
           </div>
 
-          <img src="assets/img/customs-clearing.jpg" alt="">
+          <img src="assets/img/cargo-shipment.jpg" alt="">
         </div>
       </section>
 
       <section class="services section container">
         <h2 class="section__title">
-        CUSTOMS CLEARING
+        CARGO SHIPMENT
         </h2>
         <h4 class="section__subtitle">
-        Customs clearing refers to the process of ensuring that goods being imported or exported comply with all the regulations and requirements of the destination or origin country. It is the formal procedure to move goods across international borders. The process includes documentation, payment of duties, and ensuring that goods meet the customs laws and restrictions of the country in question.
-<br> <br>
-Here’s how the process generally works:
+        Cargo shipment is the process of transporting goods across distances, involving preparation, documentation, and secure transit through various modes like sea, air, or land, until they reach their final destination.
 <br><br>
-    <b>Submission of Documents:</b> The shipper or a customs broker (who acts on behalf of the shipper) submits all the required documents to the customs authorities. These documents may include the bill of lading, commercial invoice, packing list, certificate of origin, and other regulatory documents.
-    <br><br>
-    <b>Payment of Duties and Taxes:</b> Depending on the country, duties and taxes (such as customs duties, VAT, or import/export taxes) are assessed based on the type of goods, their value, and the applicable tariffs. These charges must be paid before the goods are released.
-    <br><br>
-    <b>Customs Inspection:</b> The customs authorities may inspect the goods to ensure that they match the declared contents and are compliant with regulations, such as safety standards or import restrictions.
-    <br><br>
-    <b>Clearance:</b> Once the documentation is complete, duties are paid, and the goods have been inspected, customs will release the goods for further transportation to their destination.
-    <br><br><br>
-A customs broker or agent is often used to handle this process to ensure compliance and avoid delays.
+Here’s the basic process: <br><br><b>
+1. Booking & Documentation:</b> Reserve cargo space and prepare documents like bills of lading and customs forms.
+<br><b>2. Packaging & Labeling:</b> Pack goods securely and label them with shipping and handling details.
+<br><b>3. Pickup & Transport:</b> Transport goods to the port/airport for shipment.
+<br><b>4. Customs Clearance:</b> Ensure goods meet customs regulations and pay any applicable duties.
+<br><b>5. Loading & Transit:</b> Load cargo onto the transport mode and move it to the destination.
+<br><b>6. Arrival & Unloading:</b> Unload cargo at the destination port and clear through customs (if necessary).
+<br><b>7. Final Delivery:</b> Transport cargo to the final destination.
+<br><b>8. Payment & Documentation:</b> Complete payments and finalize the shipping paperwork.
+
         </h4>
       </section>
     </main>

@@ -3144,11 +3144,11 @@
         <div class="footer__content">
           <h3 class="footer__title">Our Services</h3>
           <ul class="footer__links">
-            <li><a href="office-relocation.php" class="footer__link">Office Relocation </a></li>
-            <li><a href="#" class="footer__link">Customs Clearing</a></li>
-            <li><a href="#" class="footer__link">Transportation</a></li>
-            <li><a href="#" class="footer__link">Warehousing</a></li>
-            <li><a href="#" class="footer__link">Cargo Shipment</a></li>
+          <li><a href="office-relocation.php" class="footer__link">Office Relocation </a></li>
+            <li><a href="customs-clearing.php" class="footer__link">Customs Clearing</a></li>
+            <li><a href="transportation.php" class="footer__link">Transportation</a></li>
+            <li><a href="warehousing.php" class="footer__link">Warehousing</a></li>
+            <li><a href="cargo-shipment.php" class="footer__link">Cargo Shipment</a></li>
             
           </ul>
         </div>
@@ -3157,9 +3157,9 @@
           <h3 class="footer__title">Our Company</h3>
           <ul class="footer__links">
             <!-- <li><a href="#" class="footer__link">Blog</a></li> -->
-            <li><a href="#" class="footer__link">Our Mission</a></li>
-            <li><a href="#" class="footer__link">Our Vision</a></li>
-            <li><a href="#" class="footer__link">Terms of Services</a></li>
+            <li><a href="mission.php" class="footer__link">Our Mission</a></li>
+            <li><a href="vision.php" class="footer__link">Our Vision</a></li>
+            <li><a href="terms-of-service.php" class="footer__link">Terms of Services</a></li>
           </ul>
         </div>
 

@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/demos.css">
     
 
-    <title>KCM | Luxe Interiors - Customs Clearing</title>
+    <title>KCM | Luxe Interiors - Warehousing</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -149,35 +149,32 @@
         <div class="about__container grid">
           <div class="about__data">
             <h2 class="section__title-center">
-             CUSTOMS CLEARING
+             WAREHOUSING
             </h2>
             <p class="about__description">
-              <u><b>Customs Clearing</b></u> is the process of ensuring goods meet all regulations for import or export, involving submission of necessary documents to customs authorities. It includes payment of duties and taxes and sometimes involves inspections to verify compliance. Once everything is in order, customs releases the goods for delivery.
+              <u><b>Warehousing</b></u> is the storage of goods in a facility until they are needed for sale or distribution. It involves organizing inventory, managing stock levels, and ensuring the proper storage conditions for different products. Efficient warehousing ensures quick order fulfillment and smooth supply chain operations by preparing goods for transportation when needed.
             </p>
           </div>
 
-          <img src="assets/img/customs-clearing.jpg" alt="">
+          <img src="assets/img/warehousing.jpg" alt="">
         </div>
       </section>
 
       <section class="services section container">
         <h2 class="section__title">
-        CUSTOMS CLEARING
+        WAREHOUSING
         </h2>
         <h4 class="section__subtitle">
-        Customs clearing refers to the process of ensuring that goods being imported or exported comply with all the regulations and requirements of the destination or origin country. It is the formal procedure to move goods across international borders. The process includes documentation, payment of duties, and ensuring that goods meet the customs laws and restrictions of the country in question.
-<br> <br>
-Here’s how the process generally works:
+        Warehousing is the process of storing goods in a designated facility until they are needed for distribution, sale, or further processing. It plays a key role in logistics by ensuring that inventory is readily available when required. The process includes receiving, storing, managing, and dispatching goods efficiently.
 <br><br>
-    <b>Submission of Documents:</b> The shipper or a customs broker (who acts on behalf of the shipper) submits all the required documents to the customs authorities. These documents may include the bill of lading, commercial invoice, packing list, certificate of origin, and other regulatory documents.
-    <br><br>
-    <b>Payment of Duties and Taxes:</b> Depending on the country, duties and taxes (such as customs duties, VAT, or import/export taxes) are assessed based on the type of goods, their value, and the applicable tariffs. These charges must be paid before the goods are released.
-    <br><br>
-    <b>Customs Inspection:</b> The customs authorities may inspect the goods to ensure that they match the declared contents and are compliant with regulations, such as safety standards or import restrictions.
-    <br><br>
-    <b>Clearance:</b> Once the documentation is complete, duties are paid, and the goods have been inspected, customs will release the goods for further transportation to their destination.
-    <br><br><br>
-A customs broker or agent is often used to handle this process to ensure compliance and avoid delays.
+Key aspects: <br><br><b>
+1. Receiving:</b> Goods are delivered to the warehouse and checked for accuracy and quality.
+<br><b>2. Storage:</b> Items are stored in specific locations (racks, shelves, pallets) based on type and demand.
+<br><b>3. Inventory Management:</b> Warehouses track stock levels, using systems like barcode scanning or RFID.
+<br><b>4. Order Fulfillment:</b> Items are picked, packed, and shipped based on orders.
+<br><b>5. Shipping:</b> Finished orders are dispatched for delivery to customers or retailers. 
+<br><br>
+Warehousing helps streamline supply chains by providing a central location to manage stock and prepare goods for transport.
         </h4>
       </section>
     </main>

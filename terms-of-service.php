@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/demos.css">
     
 
-    <title>KCM | Luxe Interiors - Customs Clearing</title>
+    <title>KCM | Luxe Interiors - Terms of Service</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -143,42 +143,69 @@
           </div>
       </div>
   </div> -->
-   
-      <!--=============== ABOUT ===============-->
-      <section class="about section container">
-        <div class="about__container grid">
-          <div class="about__data">
-            <h2 class="section__title-center">
-             CUSTOMS CLEARING
-            </h2>
-            <p class="about__description">
-              <u><b>Customs Clearing</b></u> is the process of ensuring goods meet all regulations for import or export, involving submission of necessary documents to customs authorities. It includes payment of duties and taxes and sometimes involves inspections to verify compliance. Once everything is in order, customs releases the goods for delivery.
-            </p>
-          </div>
 
-          <img src="assets/img/customs-clearing.jpg" alt="">
-        </div>
-      </section>
 
       <section class="services section container">
         <h2 class="section__title">
-        CUSTOMS CLEARING
+        Terms of Service
         </h2>
-        <h4 class="section__subtitle">
-        Customs clearing refers to the process of ensuring that goods being imported or exported comply with all the regulations and requirements of the destination or origin country. It is the formal procedure to move goods across international borders. The process includes documentation, payment of duties, and ensuring that goods meet the customs laws and restrictions of the country in question.
-<br> <br>
-Here’s how the process generally works:
+        <p>
+Welcome to KCM Luxe Interiors. By using our services, you agree to the following Terms of Service. Please read them carefully before using our website, services, or engaging with us.
+<br><br><br>
+<b><u>1. Services Provided</u></b><br>
+
+KCM Luxe Interiors offers a comprehensive range of logistics, moving, furniture installation, transportation, warehousing, and furnishing services. Our services may include, but are not limited to:
 <br><br>
-    <b>Submission of Documents:</b> The shipper or a customs broker (who acts on behalf of the shipper) submits all the required documents to the customs authorities. These documents may include the bill of lading, commercial invoice, packing list, certificate of origin, and other regulatory documents.
-    <br><br>
-    <b>Payment of Duties and Taxes:</b> Depending on the country, duties and taxes (such as customs duties, VAT, or import/export taxes) are assessed based on the type of goods, their value, and the applicable tariffs. These charges must be paid before the goods are released.
-    <br><br>
-    <b>Customs Inspection:</b> The customs authorities may inspect the goods to ensure that they match the declared contents and are compliant with regulations, such as safety standards or import restrictions.
-    <br><br>
-    <b>Clearance:</b> Once the documentation is complete, duties are paid, and the goods have been inspected, customs will release the goods for further transportation to their destination.
-    <br><br><br>
-A customs broker or agent is often used to handle this process to ensure compliance and avoid delays.
-        </h4>
+&bull; Furniture and equipment transportation<br>
+&bull;  Professional packing and unpacking<br>
+&bull;  Installation and assembly of furniture<br>
+&bull;  Warehousing and storage solutions<br>
+&bull;  Transportation and moving services<br>
+    <br>
+These services are available for both residential and commercial clients.<br><br>
+
+<b><u>2. Client Responsibilities</u></b><br>
+
+  &bull;  Accurate Information: You agree to provide accurate and complete information regarding your moving and logistics needs, including but not limited to the details of the items to be moved, delivery addresses, and any special requirements.
+  <br>  &bull;  Access: You must ensure that access to the property, including doorways, hallways, and elevators, is available and adequate for moving large or heavy items.
+  <br>  &bull;  Preparation: Clients are responsible for properly packing and securing fragile or valuable items, unless explicitly included in the service package.
+  <br> &bull;  Liability for Items: KCM Luxe Interiors is not liable for any damage to items that were not properly packed or that were inaccessible due to issues such as limited space, lack of access, or unsafe conditions.
+  <br><br>
+<b><u>3. Pricing and Payment</u></b><br>
+
+  &bull; Quoted Pricing: All prices provided are estimates based on the information available at the time of the quote. Prices are subject to change based on changes to the scope of work or unforeseen circumstances.
+  <br> &bull; Payment Terms: Payments are due according to the agreed-upon terms. Any outstanding balances may result in delays in services or cancellation of the service.
+  <br> &bull; Refunds and Cancellations:
+  <br> &bull; Cancellation Policy: Clients must notify KCM Luxe Interiors at least 48 hours in advance for a full refund. Any cancellations within 48 hours may incur a fee.
+  <br> &bull; Refunds: Refunds are only issued if services are not performed as agreed, subject to a thorough investigation and determination by KCM Luxe Interiors.
+  <br><br>
+<b><u>4. Liability and Insurance</u></b><br>
+
+ &bull; Liability for Damaged Goods: KCM Luxe Interiors will not be held liable for any damage to goods or property, unless caused by negligence or fault on our part. Damages should be reported immediately upon delivery or completion of services.
+<br> &bull; Insurance: We recommend that clients acquire appropriate insurance coverage for valuable or fragile items. KCM Luxe Interiors offers limited liability for damaged or lost goods under specific conditions as outlined in the service agreement.
+<br> &bull; Exclusions: KCM Luxe Interiors is not responsible for damage to items not provided by us, including items left unprotected or inaccessible, or for damages occurring due to external factors (e.g., weather conditions, accidents, etc.).
+<br><br>
+<b><u>5. Limitation of Liability</u></b><br>
+
+To the fullest extent permitted by law, KCM Luxe Interiors' liability is limited to the value of the services provided and excludes any consequential, incidental, or indirect damages, including lost profits or personal injury.
+<br><br><b><u>6. Governing Law</u></b><br>
+
+These Terms of Service are governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law principles. Any disputes arising out of these terms will be resolved in the courts of New York, NY.
+<br><br><b><u>7. Modifications</u></b><br>
+
+KCM Luxe Interiors reserves the right to update or modify these Terms of Service at any time. Changes will be posted on our website, and your continued use of our services constitutes acceptance of the updated terms.
+<br><br><b><u>8. Privacy</u></b><br>
+
+For information about how we handle your personal data, please refer to our Privacy Policy [insert link to privacy policy].
+<br><br><b><u>9. Contact Us</u></b><br>
+
+For any questions or concerns regarding these Terms of Service, please contact us at: KCM Luxe Interiors<br>
+<br>
+Email: sales@kcmli.com<br>
+Phone: 929-366-6396
+<br><br>
+By engaging with KCM Luxe Interiors, you acknowledge that you have read, understood, and agreed to these Terms of Service.
+        </p>
       </section>
     </main>
 

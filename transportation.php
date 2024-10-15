@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/demos.css">
     
 
-    <title>KCM | Luxe Interiors - Customs Clearing</title>
+    <title>KCM | Luxe Interiors - Transportation</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -149,35 +149,33 @@
         <div class="about__container grid">
           <div class="about__data">
             <h2 class="section__title-center">
-             CUSTOMS CLEARING
+             TRANSPORTATION
             </h2>
             <p class="about__description">
-              <u><b>Customs Clearing</b></u> is the process of ensuring goods meet all regulations for import or export, involving submission of necessary documents to customs authorities. It includes payment of duties and taxes and sometimes involves inspections to verify compliance. Once everything is in order, customs releases the goods for delivery.
+              <u><b>Transportation</b></u> is the process of moving goods, people, or services from one place to another. It encompasses various modes such as road (trucks, cars), rail (trains), air (planes), and sea (ships), each offering different advantages depending on the nature of the cargo and the distance to be covered. In logistics, transportation plays a vital role in ensuring the timely and efficient movement of products through supply chains, affecting both cost and customer satisfaction.
             </p>
           </div>
 
-          <img src="assets/img/customs-clearing.jpg" alt="">
+          <img src="assets/img/transportation.jpg" alt="">
         </div>
       </section>
 
       <section class="services section container">
         <h2 class="section__title">
-        CUSTOMS CLEARING
+        TRANSPORTATION
         </h2>
         <h4 class="section__subtitle">
-        Customs clearing refers to the process of ensuring that goods being imported or exported comply with all the regulations and requirements of the destination or origin country. It is the formal procedure to move goods across international borders. The process includes documentation, payment of duties, and ensuring that goods meet the customs laws and restrictions of the country in question.
+        The transportation process involves several stages to move goods or people from one point to another efficiently.
 <br> <br>
-Here’s how the process generally works:
+Here’s a breakdown of the typical steps involved:
 <br><br>
-    <b>Submission of Documents:</b> The shipper or a customs broker (who acts on behalf of the shipper) submits all the required documents to the customs authorities. These documents may include the bill of lading, commercial invoice, packing list, certificate of origin, and other regulatory documents.
-    <br><br>
-    <b>Payment of Duties and Taxes:</b> Depending on the country, duties and taxes (such as customs duties, VAT, or import/export taxes) are assessed based on the type of goods, their value, and the applicable tariffs. These charges must be paid before the goods are released.
-    <br><br>
-    <b>Customs Inspection:</b> The customs authorities may inspect the goods to ensure that they match the declared contents and are compliant with regulations, such as safety standards or import restrictions.
-    <br><br>
-    <b>Clearance:</b> Once the documentation is complete, duties are paid, and the goods have been inspected, customs will release the goods for further transportation to their destination.
-    <br><br><br>
-A customs broker or agent is often used to handle this process to ensure compliance and avoid delays.
+<b>1. Planning:</b> Choose the transportation mode, route, and schedule.
+<br><b>2. Preparation:</b> Package and label goods, complete necessary documents.
+<br><b>3. Pickup & Loading:</b> Collect goods and load them onto transportation.
+<br><b>4. Transit: Transport</b> goods to the destination, possibly with transshipment.
+<br><b>5. Customs Clearance:</b> Complete paperwork and pay duties for international shipments.
+<br><b>6. Delivery & Unloading:</b> Deliver goods to the final destination and unload them.
+<br><b>7. Final Payment & Documentation:</b> Settle remaining payments and close the transaction.
         </h4>
       </section>
     </main>

@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/demos.css">
     
 
-    <title>KCM | Luxe Interiors</title>
+    <title>KCM | Luxe Interiors - Office Relocation</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -152,7 +152,7 @@
               OFFICE RELOCATION
             </h2>
             <p class="about__description">
-              <u><b>Office relocation</b></u> is the process of moving a business from one location to another, involving careful planning, coordination, and execution. This includes tasks like taking inventory, packing, and transporting furniture, technology, and documents, while ensuring minimal disruption to daily operations. It also involves setting up the new office space to be fully functional, with IT systems, communication lines, and workspace configurations ready for use.
+              <u><b>Office Relocation</b></u> is the process of moving a business from one location to another, involving careful planning, coordination, and execution. This includes tasks like taking inventory, packing, and transporting furniture, technology, and documents, while ensuring minimal disruption to daily operations. It also involves setting up the new office space to be fully functional, with IT systems, communication lines, and workspace configurations ready for use.
             </p>
           </div>
 
@@ -167,17 +167,17 @@
         <h4 class="section__subtitle">
         Office relocation is the comprehensive process of moving a business from one location to another. It involves careful planning, coordination, and execution to ensure that the transition happens smoothly with minimal disruption to daily operations. The key aspects of office relocation include:
 
-<br><b>1. **Pre-Move Planning**:</b> This phase involves selecting a new office space that meets the company's needs, such as size, location, and budget. It also includes setting a moving date, organizing a relocation team, and outlining the tasks and responsibilities involved.
+<br><b>1. Pre-Move Planning:</b> This phase involves selecting a new office space that meets the company's needs, such as size, location, and budget. It also includes setting a moving date, organizing a relocation team, and outlining the tasks and responsibilities involved.
 
-<br><b>2. **Inventory Management**:</b> Companies must assess what needs to be moved, including office furniture, equipment, technology, and important documents. Decisions are made about what will be moved, stored, or replaced. Some items may require special handling, like servers or fragile equipment.
+<br><b>2. Inventory Management:</b> Companies must assess what needs to be moved, including office furniture, equipment, technology, and important documents. Decisions are made about what will be moved, stored, or replaced. Some items may require special handling, like servers or fragile equipment.
 
-<br><b>3. **Technology and Infrastructure**:</b> A major part of office relocation is ensuring all technological systems—computers, networks, phone systems, and other infrastructure—are disconnected, safely transported, and set up in the new office without losing data or disrupting communication.
+<br><b>3. Technology and Infrastructure:</b> A major part of office relocation is ensuring all technological systems—computers, networks, phone systems, and other infrastructure—are disconnected, safely transported, and set up in the new office without losing data or disrupting communication.
 
-<br><b>4. **Packing and Moving**:</b> Packing up the office involves securing all items for transportation. Professional movers may be hired to ensure that everything is safely relocated, including large furniture, electronic devices, and sensitive materials.
+<br><b>4. Packing and Moving:</b> Packing up the office involves securing all items for transportation. Professional movers may be hired to ensure that everything is safely relocated, including large furniture, electronic devices, and sensitive materials.
 
-<br><b>5. **Communication**:</b> Informing employees, clients, and stakeholders about the move is essential. It also involves updating addresses on all official business documentation, websites, and other channels to reflect the new location.
+<br><b>5. Communication:</b> Informing employees, clients, and stakeholders about the move is essential. It also involves updating addresses on all official business documentation, websites, and other channels to reflect the new location.
 
-<br><b>6. **Post-Move Setup and Transition**:</b> Once everything is moved, the office space must be set up to accommodate employees, ensuring that workstations, IT systems, and common areas are functional. Any remaining tasks, such as resolving technical issues or adjusting workflows, are addressed after the move.
+<br><b>6. Post-Move Setup and Transition:</b> Once everything is moved, the office space must be set up to accommodate employees, ensuring that workstations, IT systems, and common areas are functional. Any remaining tasks, such as resolving technical issues or adjusting workflows, are addressed after the move.
 
 <br><br>Office relocation can offer opportunities for businesses to improve their work environment, introduce new technologies, or rebrand, but it requires thorough planning and resource management to avoid downtime and costly mistakes.
         </h4>
@@ -200,9 +200,9 @@
           <ul class="footer__links">
             <li><a href="office-relocation.php" class="footer__link">Office Relocation </a></li>
             <li><a href="customs-clearing.php" class="footer__link">Customs Clearing</a></li>
-            <li><a href="#" class="footer__link">Transportation</a></li>
-            <li><a href="#" class="footer__link">Warehousing</a></li>
-            <li><a href="#" class="footer__link">Cargo Shipment</a></li>
+            <li><a href="transportation.php" class="footer__link">Transportation</a></li>
+            <li><a href="warehousing.php" class="footer__link">Warehousing</a></li>
+            <li><a href="cargo-shipment.php" class="footer__link">Cargo Shipment</a></li>
             
           </ul>
         </div>
@@ -211,9 +211,9 @@
           <h3 class="footer__title">Our Company</h3>
           <ul class="footer__links">
             <!-- <li><a href="#" class="footer__link">Blog</a></li> -->
-            <li><a href="#" class="footer__link">Our Mission</a></li>
-            <li><a href="#" class="footer__link">Our Vision</a></li>
-            <li><a href="#" class="footer__link">Terms of Services</a></li>
+            <li><a href="mission.php" class="footer__link">Our Mission</a></li>
+            <li><a href="vision.php" class="footer__link">Our Vision</a></li>
+            <li><a href="terms-of-service.php" class="footer__link">Terms of Services</a></li>
           </ul>
         </div>
 

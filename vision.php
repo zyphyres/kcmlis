@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/demos.css">
     
 
-    <title>KCM | Luxe Interiors - Customs Clearing</title>
+    <title>KCM | Luxe Interiors - Our Vision</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -143,41 +143,18 @@
           </div>
       </div>
   </div> -->
-   
-      <!--=============== ABOUT ===============-->
-      <section class="about section container">
-        <div class="about__container grid">
-          <div class="about__data">
-            <h2 class="section__title-center">
-             CUSTOMS CLEARING
-            </h2>
-            <p class="about__description">
-              <u><b>Customs Clearing</b></u> is the process of ensuring goods meet all regulations for import or export, involving submission of necessary documents to customs authorities. It includes payment of duties and taxes and sometimes involves inspections to verify compliance. Once everything is in order, customs releases the goods for delivery.
-            </p>
-          </div>
 
-          <img src="assets/img/customs-clearing.jpg" alt="">
-        </div>
-      </section>
 
       <section class="services section container">
         <h2 class="section__title">
-        CUSTOMS CLEARING
+        Our Vision
         </h2>
         <h4 class="section__subtitle">
-        Customs clearing refers to the process of ensuring that goods being imported or exported comply with all the regulations and requirements of the destination or origin country. It is the formal procedure to move goods across international borders. The process includes documentation, payment of duties, and ensuring that goods meet the customs laws and restrictions of the country in question.
-<br> <br>
-Here’s how the process generally works:
+        At KCM Luxe Interiors, our vision is to revolutionize the logistics and moving industry by setting a new standard of excellence, where seamless, reliable, and customized solutions are at the heart of every project. As a full-service moving and logistics company based in Queens, NY, we are dedicated to offering a comprehensive range of services—from furniture installations and transportation to warehousing and furnishing—that cater to the unique needs of our diverse clientele.
 <br><br>
-    <b>Submission of Documents:</b> The shipper or a customs broker (who acts on behalf of the shipper) submits all the required documents to the customs authorities. These documents may include the bill of lading, commercial invoice, packing list, certificate of origin, and other regulatory documents.
-    <br><br>
-    <b>Payment of Duties and Taxes:</b> Depending on the country, duties and taxes (such as customs duties, VAT, or import/export taxes) are assessed based on the type of goods, their value, and the applicable tariffs. These charges must be paid before the goods are released.
-    <br><br>
-    <b>Customs Inspection:</b> The customs authorities may inspect the goods to ensure that they match the declared contents and are compliant with regulations, such as safety standards or import restrictions.
-    <br><br>
-    <b>Clearance:</b> Once the documentation is complete, duties are paid, and the goods have been inspected, customs will release the goods for further transportation to their destination.
-    <br><br><br>
-A customs broker or agent is often used to handle this process to ensure compliance and avoid delays.
+We aim to be more than just a moving company; we aspire to be a trusted partner for every client, large or small, residential or commercial. Our commitment to excellence drives us to offer unmatched service quality, ensuring that every item, every step, and every detail is handled with care and precision. By combining industry-leading expertise with innovative solutions and competitive pricing, we provide value that extends beyond the transaction, creating a lasting impression and fostering long-term relationships.
+<br><br>
+Our vision is to grow alongside our clients, helping them navigate the complexities of moving and logistics with confidence and ease. With a focus on efficiency, professionalism, and integrity, KCM Luxe Interiors will continue to set the benchmark for service excellence in the logistics and moving industry, making every move a seamless and stress-free experience.
         </h4>
       </section>
     </main>
