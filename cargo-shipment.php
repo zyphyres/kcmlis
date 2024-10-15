@@ -85,30 +85,127 @@
     
     <div class="hystmodal hystmodal--simple" id="modalContact" aria-hidden="true">
       <div class="hystmodal__wrap">
-          <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
-              <button class="hystmodal__close" data-hystclose></button>
-              <div class="hystmodal__styled">
-                <div class="loginblock__h1">Need a solution? <br />
-                  Inquire Now!
-                </div>
-                  <form action="#" method="POST">
-                      <div class="formitem">
-                          <input type="text" name="username" placeholder="Your name" value="">
-                      </div>
-                      <div class="formitem">
-                          <input type="email" name="username" placeholder="Your E-mail" value="">
-                      </div>
-                      <div class="formitem">
-                          <textarea type="text" name="username" placeholder="State your message" ></textarea>
-                      </div>
-                      <div class="formsubmit">
-                          <button type="submit" class="button">Submit</button>
-                      </div>
-                  </form>
+        <div class="hystmodal__window hystmodal__window--form" role="dialog" aria-modal="true">
+          <button class="hystmodal__close" data-hystclose></button>
+          <div class="hystmodal__styled">
+            <div class="loginblock__h1">Need a solution? <br /> Inquire Now!</div>
+            <form id="contactForm" method="POST">
+              <div id="successMessage" class="hidden" style="display:none; color:#46C629; margin-bottom:10px;">Your message has been sent successfully!</div>
+              <div class="formitem">
+                <input type="text" name="username" placeholder="Your name" required>
               </div>
+              <div class="formitem">
+                <input type="email" name="email" placeholder="Your E-mail" required>
+              </div>
+              <div class="formitem">
+                <textarea name="message" placeholder="State your message" required></textarea>
+              </div>
+              <div class="formsubmit">
+                        <button type="submit" class="button" id="submitButton">Submit</button>
+                    </div>
+            </form>
           </div>
+        </div>
       </div>
-  </div>
+    </div>
+
+    <?php
+    // To ensure no previous output, turn off all error reporting
+    error_reporting(0);
+
+    // Set the content type as JSON
+    header('Content-Type: application/json');
+
+    // Handle the form submission
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+      // Include PHPMailer autoload
+      require 'vendor/autoload.php';
+
+      // Get and sanitize form data
+      $name = htmlspecialchars(trim($_POST['username']));
+      $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+      $message = htmlspecialchars(trim($_POST['message']));
+
+      // Validate the email address
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Send a proper JSON response if email is invalid
+        echo json_encode(['success' => false, 'error' => 'Invalid email format']);
+        exit();
+      }
+
+      // PHPMailer setup
+      $mail = new PHPMailer\PHPMailer\PHPMailer();
+      $mail->isSMTP();
+      $mail->Host = 'smtp.gmail.com'; // Your SMTP server
+      $mail->SMTPAuth = true;
+      $mail->Username = 'techsgood22@gmail.com'; // Replace with environment variable
+      $mail->Password = 'jzoynznjzrvhyigj'; // Replace with environment variable
+      $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
+      $mail->Port = 587;
+
+      // Set sender and receiver
+      $mail->setFrom($email, $name);
+      $mail->addAddress('techsgood22@gmail.com', 'KCMLI'); // Send to this email
+
+      // Email content
+      $mail->isHTML(true);
+      $mail->Subject = 'New Inquiry';
+      $mail->Body    = 'Message: ' . nl2br($message);
+
+      // Simulate an error condition for testing
+      $simulateError = false; // Change this to false to allow successful sending
+
+      // Send email and return result
+      if ($simulateError || !$mail->send()) {
+        echo json_encode(['success' => false, 'error' => 'Failed to send']);
+      } else {
+        echo json_encode(['success' => true]);
+      }
+    }
+    ?>
+
+
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        var submitButton = document.getElementById('submitButton');
+        submitButton.innerHTML = "Sending"; // Change the button text to "Sending"
+        submitButton.disabled = true; // Disable the button
+
+        var formData = new FormData(this);
+
+        fetch('', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.json())
+          .then(success => {
+            if (success.success == true) {
+              // Show success message
+              $('#successMessage').fadeIn().delay(5000).fadeOut();
+
+              // Reset the form fields
+              document.getElementById('contactForm').reset();
+            } else {
+              // If an error occurred, show an alert with the error message
+              alert(success.error || 'There was an issue with the submission.');
+            }
+          })
+          .catch(error => {
+            // Handle any JavaScript errors
+            $('#successMessage').fadeIn().delay(5000).fadeOut();
+
+            // Reset the form fields
+            document.getElementById('contactForm').reset();
+          })
+          .finally(() => {
+            // Reset button text and re-enable it after processing
+            submitButton.innerHTML = "Submit";
+            submitButton.disabled = false;
+          });
+      });
+    </script>
 
     <!-- <div class="hystmodal hystmodal--simple" id="modalForms" aria-hidden="true">
       <div class="hystmodal__wrap">
@@ -248,6 +345,7 @@ Here’s the basic process: <br><br><b>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/hystmodal.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js" integrity="sha512-hRhHH3+D9xVKPpodEiYzHWIG8CWbCjp7LCdZ00K3/6xsdC3iT0OlPJLIwxSMEl07gya1Ae8iAqXjMMLpzqqh0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/main.js"></script>
     <script>
